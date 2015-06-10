@@ -1,0 +1,1 @@
+export PATH="/mnt/data/root/src/emsdk_portable:/mnt/data/tmp/emsdk_portable:/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/bin:/mnt/data/tmp/emsdk_portable/emscripten/master:/root/bin:/root/node_modules/.bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/usr/bin:/sbin:/bin"

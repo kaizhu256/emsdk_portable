@@ -1,0 +1,2 @@
+/usr/bin/ar cq ../../../libLLVMNaClBitReader.a  CMakeFiles/LLVMNaClBitReader.dir/NaClBitCodes.cpp.o CMakeFiles/LLVMNaClBitReader.dir/NaClBitcodeHeader.cpp.o CMakeFiles/LLVMNaClBitReader.dir/NaClBitcodeReader.cpp.o CMakeFiles/LLVMNaClBitReader.dir/NaClBitstreamReader.cpp.o CMakeFiles/LLVMNaClBitReader.dir/NaClBitcodeParser.cpp.o CMakeFiles/LLVMNaClBitReader.dir/NaClBitcodeDecoders.cpp.o
+/usr/bin/ranlib ../../../libLLVMNaClBitReader.a

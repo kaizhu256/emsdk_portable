@@ -1,0 +1,2 @@
+/usr/bin/ar cq ../../libLLVMNaClAnalysis.a  CMakeFiles/LLVMNaClAnalysis.dir/PNaClABITypeChecker.cpp.o CMakeFiles/LLVMNaClAnalysis.dir/PNaClABIProps.cpp.o CMakeFiles/LLVMNaClAnalysis.dir/PNaClABIVerifyFunctions.cpp.o CMakeFiles/LLVMNaClAnalysis.dir/PNaClABIVerifyModule.cpp.o CMakeFiles/LLVMNaClAnalysis.dir/PNaClAllowedIntrinsics.cpp.o
+/usr/bin/ranlib ../../libLLVMNaClAnalysis.a

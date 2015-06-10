@@ -1,0 +1,2407 @@
+The system is: Linux - 3.13.0-48-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/3.2.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/3.2.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3856052528/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3856052528.dir/build.make CMakeFiles/cmTryCompileExec3856052528.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3856052528.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3856052528.dir/testCCompiler.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3856052528
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3856052528.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3856052528.dir/testCCompiler.c.o  -o cmTryCompileExec3856052528 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4123275205/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4123275205.dir/build.make CMakeFiles/cmTryCompileExec4123275205.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4123275205.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4123275205.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec4123275205
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4123275205.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTryCompileExec4123275205.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec4123275205 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-20' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --with-arch-32=i586 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Debian 4.9.2-20) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4123275205' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/cczJTs8d.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec4123275205 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec4123275205.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec4123275205/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec4123275205.dir/build.make CMakeFiles/cmTryCompileExec4123275205.dir/build]
+  ignore line: [make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec4123275205.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4123275205.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec4123275205]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4123275205.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTryCompileExec4123275205.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec4123275205 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-20' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --with-arch-32=i586 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (Debian 4.9.2-20) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4123275205' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/cczJTs8d.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec4123275205 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec4123275205.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cczJTs8d.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec4123275205] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..]
+    arg [CMakeFiles/cmTryCompileExec4123275205.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3749967352/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3749967352.dir/build.make CMakeFiles/cmTryCompileExec3749967352.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3749967352.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTryCompileExec3749967352.dir/feature_tests.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec3749967352
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3749967352.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3749967352.dir/feature_tests.c.o  -o cmTryCompileExec3749967352 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1180130635/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1180130635.dir/build.make CMakeFiles/cmTryCompileExec1180130635.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1180130635.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTryCompileExec1180130635.dir/feature_tests.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec1180130635
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1180130635.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1180130635.dir/feature_tests.c.o  -o cmTryCompileExec1180130635 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1875308849/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1875308849.dir/build.make CMakeFiles/cmTryCompileExec1875308849.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1875308849.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTryCompileExec1875308849.dir/feature_tests.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec1875308849
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1875308849.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1875308849.dir/feature_tests.c.o  -o cmTryCompileExec1875308849 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2941016951/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2941016951.dir/build.make CMakeFiles/cmTryCompileExec2941016951.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2941016951.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2941016951.dir/testCXXCompiler.cxx.o -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2941016951
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2941016951.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec2941016951.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2941016951 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec404944628/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec404944628.dir/build.make CMakeFiles/cmTryCompileExec404944628.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec404944628.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec404944628.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec404944628
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec404944628.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTryCompileExec404944628.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec404944628 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-20' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --with-arch-32=i586 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Debian 4.9.2-20) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec404944628' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccd3lXjE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec404944628 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec404944628.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec404944628/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec404944628.dir/build.make CMakeFiles/cmTryCompileExec404944628.dir/build]
+  ignore line: [make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec404944628.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec404944628.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec404944628]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec404944628.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTryCompileExec404944628.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec404944628 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-20' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --with-arch-32=i586 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (Debian 4.9.2-20) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec404944628' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccd3lXjE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec404944628 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec404944628.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccd3lXjE.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec404944628] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..]
+    arg [CMakeFiles/cmTryCompileExec404944628.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2552968027/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2552968027.dir/build.make CMakeFiles/cmTryCompileExec2552968027.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2552968027.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTryCompileExec2552968027.dir/feature_tests.cxx.o -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec2552968027
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2552968027.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec2552968027.dir/feature_tests.cxx.o  -o cmTryCompileExec2552968027 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec70455543/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec70455543.dir/build.make CMakeFiles/cmTryCompileExec70455543.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec70455543.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTryCompileExec70455543.dir/feature_tests.cxx.o -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec70455543
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec70455543.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec70455543.dir/feature_tests.cxx.o  -o cmTryCompileExec70455543 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec876551316/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec876551316.dir/build.make CMakeFiles/cmTryCompileExec876551316.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec876551316.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTryCompileExec876551316.dir/feature_tests.cxx.o -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec876551316
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec876551316.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec876551316.dir/feature_tests.cxx.o  -o cmTryCompileExec876551316 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file dirent.h exists passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1372549931/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1372549931.dir/build.make CMakeFiles/cmTryCompileExec1372549931.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1372549931.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1372549931.dir/CheckIncludeFile.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1372549931
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1372549931.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1372549931.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1372549931 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec671735044/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec671735044.dir/build.make CMakeFiles/cmTryCompileExec671735044.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec671735044.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec671735044.dir/CheckIncludeFile.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec671735044
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec671735044.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec671735044.dir/CheckIncludeFile.c.o  -o cmTryCompileExec671735044 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1491853622/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1491853622.dir/build.make CMakeFiles/cmTryCompileExec1491853622.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1491853622.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1491853622.dir/CheckIncludeFile.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1491853622
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1491853622.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1491853622.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1491853622 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3047316552/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3047316552.dir/build.make CMakeFiles/cmTryCompileExec3047316552.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3047316552.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3047316552.dir/CheckIncludeFile.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3047316552
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3047316552.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3047316552.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3047316552 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4282508306/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4282508306.dir/build.make CMakeFiles/cmTryCompileExec4282508306.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4282508306.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4282508306.dir/CheckIncludeFile.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4282508306
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4282508306.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4282508306.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4282508306 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1409394851/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1409394851.dir/build.make CMakeFiles/cmTryCompileExec1409394851.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1409394851.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1409394851.dir/CheckIncludeFile.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1409394851
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1409394851.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1409394851.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1409394851 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4257407463/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4257407463.dir/build.make CMakeFiles/cmTryCompileExec4257407463.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4257407463.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4257407463.dir/CheckIncludeFile.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4257407463
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4257407463.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4257407463.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4257407463 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file link.h exists passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3231515898/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3231515898.dir/build.make CMakeFiles/cmTryCompileExec3231515898.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3231515898.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3231515898.dir/CheckIncludeFile.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3231515898
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3231515898.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3231515898.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3231515898 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3789082958/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3789082958.dir/build.make CMakeFiles/cmTryCompileExec3789082958.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3789082958.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3789082958.dir/CheckIncludeFile.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3789082958
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3789082958.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3789082958.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3789082958 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3431420474/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3431420474.dir/build.make CMakeFiles/cmTryCompileExec3431420474.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3431420474.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3431420474.dir/CheckIncludeFile.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3431420474
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3431420474.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3431420474.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3431420474 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3371826886/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3371826886.dir/build.make CMakeFiles/cmTryCompileExec3371826886.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3371826886.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3371826886.dir/CheckIncludeFile.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3371826886
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3371826886.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3371826886.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3371826886 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3552247270/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3552247270.dir/build.make CMakeFiles/cmTryCompileExec3552247270.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3552247270.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3552247270.dir/CheckIncludeFile.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3552247270
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3552247270.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3552247270.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3552247270 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/dir.h exists passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1675507986/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1675507986.dir/build.make CMakeFiles/cmTryCompileExec1675507986.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1675507986.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1675507986.dir/CheckIncludeFile.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1675507986
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1675507986.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1675507986.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1675507986 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3353217690/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3353217690.dir/build.make CMakeFiles/cmTryCompileExec3353217690.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3353217690.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3353217690.dir/CheckIncludeFile.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3353217690
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3353217690.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3353217690.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3353217690 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2819143212/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2819143212.dir/build.make CMakeFiles/cmTryCompileExec2819143212.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2819143212.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2819143212.dir/CheckIncludeFile.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2819143212
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2819143212.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2819143212.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2819143212 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2170389146/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2170389146.dir/build.make CMakeFiles/cmTryCompileExec2170389146.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2170389146.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2170389146.dir/CheckIncludeFile.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2170389146
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2170389146.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2170389146.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2170389146 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3301956355/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3301956355.dir/build.make CMakeFiles/cmTryCompileExec3301956355.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3301956355.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3301956355.dir/CheckIncludeFile.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3301956355
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3301956355.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3301956355.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3301956355 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1601940110/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1601940110.dir/build.make CMakeFiles/cmTryCompileExec1601940110.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1601940110.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1601940110.dir/CheckIncludeFile.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1601940110
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1601940110.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1601940110.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1601940110 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec102349661/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec102349661.dir/build.make CMakeFiles/cmTryCompileExec102349661.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec102349661.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec102349661.dir/CheckIncludeFile.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec102349661
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec102349661.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec102349661.dir/CheckIncludeFile.c.o  -o cmTryCompileExec102349661 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/uio.h exists passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3937401766/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3937401766.dir/build.make CMakeFiles/cmTryCompileExec3937401766.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3937401766.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3937401766.dir/CheckIncludeFile.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3937401766
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3937401766.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3937401766.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3937401766 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/wait.h exists passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3220077794/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3220077794.dir/build.make CMakeFiles/cmTryCompileExec3220077794.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3220077794.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3220077794.dir/CheckIncludeFile.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3220077794
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3220077794.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3220077794.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3220077794 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file termios.h exists passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1671979021/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1671979021.dir/build.make CMakeFiles/cmTryCompileExec1671979021.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1671979021.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1671979021.dir/CheckIncludeFile.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1671979021
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1671979021.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1671979021.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1671979021 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1678881415/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1678881415.dir/build.make CMakeFiles/cmTryCompileExec1678881415.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1678881415.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1678881415.dir/CheckIncludeFile.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1678881415
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1678881415.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1678881415.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1678881415 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file utime.h exists passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2604124036/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2604124036.dir/build.make CMakeFiles/cmTryCompileExec2604124036.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2604124036.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2604124036.dir/CheckIncludeFile.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2604124036
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2604124036.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2604124036.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2604124036 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2912705350/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2912705350.dir/build.make CMakeFiles/cmTryCompileExec2912705350.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2912705350.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2912705350.dir/CheckIncludeFile.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2912705350
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2912705350.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2912705350.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2912705350 -rdynamic 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the FE_ALL_EXCEPT exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec232177360/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec232177360.dir/build.make CMakeFiles/cmTryCompileExec232177360.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec232177360.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec232177360.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec232177360
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec232177360.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec232177360.dir/CheckSymbolExists.c.o  -o cmTryCompileExec232177360 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_ALL_EXCEPT
+  return ((int*)(&FE_ALL_EXCEPT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the FE_INEXACT exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec759595608/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec759595608.dir/build.make CMakeFiles/cmTryCompileExec759595608.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec759595608.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec759595608.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec759595608
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec759595608.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec759595608.dir/CheckSymbolExists.c.o  -o cmTryCompileExec759595608 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_INEXACT
+  return ((int*)(&FE_INEXACT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAVE_CXXABI_H succeded with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1927945516/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1927945516.dir/build.make CMakeFiles/cmTryCompileExec1927945516.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1927945516.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CXXABI_H   -o CMakeFiles/cmTryCompileExec1927945516.dir/src.cxx.o -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1927945516
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1927945516.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_CXXABI_H    CMakeFiles/cmTryCompileExec1927945516.dir/src.cxx.o  -o cmTryCompileExec1927945516 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <stddef.h>
+#include <cxxabi.h>
+int main() { return 0; }
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1099442877/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1099442877.dir/build.make CMakeFiles/cmTryCompileExec1099442877.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1099442877.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1099442877.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1099442877
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1099442877.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1099442877.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1099442877 -rdynamic -lpthread -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_getspecific exists in the pthread passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2187574425/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2187574425.dir/build.make CMakeFiles/cmTryCompileExec2187574425.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2187574425.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_getspecific   -o CMakeFiles/cmTryCompileExec2187574425.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2187574425
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2187574425.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_getspecific    CMakeFiles/cmTryCompileExec2187574425.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2187574425 -rdynamic -lpthread -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_rwlock_init exists in the pthread passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec228039377/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec228039377.dir/build.make CMakeFiles/cmTryCompileExec228039377.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec228039377.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init   -o CMakeFiles/cmTryCompileExec228039377.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec228039377
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec228039377.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init    CMakeFiles/cmTryCompileExec228039377.dir/CheckFunctionExists.c.o  -o cmTryCompileExec228039377 -rdynamic -lpthread -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_mutex_lock exists in the pthread passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3294024720/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3294024720.dir/build.make CMakeFiles/cmTryCompileExec3294024720.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3294024720.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock   -o CMakeFiles/cmTryCompileExec3294024720.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3294024720
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3294024720.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock    CMakeFiles/cmTryCompileExec3294024720.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3294024720 -rdynamic -lpthread -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2106701490/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2106701490.dir/build.make CMakeFiles/cmTryCompileExec2106701490.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2106701490.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTryCompileExec2106701490.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2106701490
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2106701490.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlopen    CMakeFiles/cmTryCompileExec2106701490.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2106701490 -rdynamic -ldl -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec977548503/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec977548503.dir/build.make CMakeFiles/cmTryCompileExec977548503.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec977548503.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTryCompileExec977548503.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec977548503
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec977548503.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTryCompileExec977548503.dir/CheckFunctionExists.c.o  -o cmTryCompileExec977548503 -rdynamic -lrt -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setupterm exists in the tinfo passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3406314982/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3406314982.dir/build.make CMakeFiles/cmTryCompileExec3406314982.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3406314982.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setupterm   -o CMakeFiles/cmTryCompileExec3406314982.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3406314982
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3406314982.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setupterm    CMakeFiles/cmTryCompileExec3406314982.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3406314982 -rdynamic -ltinfo -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the backtrace exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3222240991/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3222240991.dir/build.make CMakeFiles/cmTryCompileExec3222240991.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3222240991.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3222240991.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3222240991
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3222240991.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3222240991.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3222240991 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getpagesize exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3611770861/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3611770861.dir/build.make CMakeFiles/cmTryCompileExec3611770861.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3611770861.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3611770861.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3611770861
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3611770861.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3611770861.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3611770861 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getrusage exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec563716890/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec563716890.dir/build.make CMakeFiles/cmTryCompileExec563716890.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec563716890.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec563716890.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec563716890
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec563716890.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec563716890.dir/CheckSymbolExists.c.o  -o cmTryCompileExec563716890 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrusage
+  return ((int*)(&getrusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setrlimit exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1853753146/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1853753146.dir/build.make CMakeFiles/cmTryCompileExec1853753146.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1853753146.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1853753146.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1853753146
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1853753146.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1853753146.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1853753146 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isatty exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3719136909/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3719136909.dir/build.make CMakeFiles/cmTryCompileExec3719136909.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3719136909.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3719136909.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3719136909
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3719136909.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3719136909.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3719136909 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isatty
+  return ((int*)(&isatty))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the futimens exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec789699789/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec789699789.dir/build.make CMakeFiles/cmTryCompileExec789699789.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec789699789.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec789699789.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec789699789
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec789699789.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec789699789.dir/CheckSymbolExists.c.o  -o cmTryCompileExec789699789 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimens
+  return ((int*)(&futimens))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the futimes exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3883641726/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3883641726.dir/build.make CMakeFiles/cmTryCompileExec3883641726.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3883641726.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3883641726.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3883641726
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3883641726.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3883641726.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3883641726 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimes
+  return ((int*)(&futimes))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the writev exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec904847510/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec904847510.dir/build.make CMakeFiles/cmTryCompileExec904847510.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec904847510.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec904847510.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec904847510
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec904847510.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec904847510.dir/CheckSymbolExists.c.o  -o cmTryCompileExec904847510 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/uio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef writev
+  return ((int*)(&writev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mallinfo exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2405802561/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2405802561.dir/build.make CMakeFiles/cmTryCompileExec2405802561.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2405802561.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2405802561.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2405802561
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2405802561.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2405802561.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2405802561 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallinfo
+  return ((int*)(&mallinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mkdtemp exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2027769796/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2027769796.dir/build.make CMakeFiles/cmTryCompileExec2027769796.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2027769796.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2027769796.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2027769796
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2027769796.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2027769796.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2027769796 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mkdtemp
+  return ((int*)(&mkdtemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mkstemp exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1298499158/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1298499158.dir/build.make CMakeFiles/cmTryCompileExec1298499158.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1298499158.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1298499158.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1298499158
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1298499158.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1298499158.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1298499158 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mkstemp
+  return ((int*)(&mkstemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mktemp exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec739232056/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec739232056.dir/build.make CMakeFiles/cmTryCompileExec739232056.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec739232056.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec739232056.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec739232056
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec739232056.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec739232056.dir/CheckSymbolExists.c.o  -o cmTryCompileExec739232056 -rdynamic -lm 
+CMakeFiles/cmTryCompileExec739232056.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): warning: the use of `mktemp' is dangerous, better use `mkstemp' or `mkdtemp'
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mktemp
+  return ((int*)(&mktemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the closedir exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1102557035/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1102557035.dir/build.make CMakeFiles/cmTryCompileExec1102557035.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1102557035.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1102557035.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1102557035
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1102557035.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1102557035.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1102557035 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <dirent.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef closedir
+  return ((int*)(&closedir))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the opendir exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec378282713/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec378282713.dir/build.make CMakeFiles/cmTryCompileExec378282713.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec378282713.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec378282713.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec378282713
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec378282713.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec378282713.dir/CheckSymbolExists.c.o  -o cmTryCompileExec378282713 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <dirent.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef opendir
+  return ((int*)(&opendir))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the readdir exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4064767700/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4064767700.dir/build.make CMakeFiles/cmTryCompileExec4064767700.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4064767700.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4064767700.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec4064767700
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4064767700.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4064767700.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4064767700 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <dirent.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef readdir
+  return ((int*)(&readdir))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getcwd exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2483006237/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2483006237.dir/build.make CMakeFiles/cmTryCompileExec2483006237.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2483006237.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2483006237.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2483006237
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2483006237.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2483006237.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2483006237 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getcwd
+  return ((int*)(&getcwd))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2640881649/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2640881649.dir/build.make CMakeFiles/cmTryCompileExec2640881649.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2640881649.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2640881649.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2640881649
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2640881649.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2640881649.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2640881649 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getrlimit exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1579058444/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1579058444.dir/build.make CMakeFiles/cmTryCompileExec1579058444.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1579058444.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1579058444.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1579058444
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1579058444.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1579058444.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1579058444 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the posix_spawn exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2087056870/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2087056870.dir/build.make CMakeFiles/cmTryCompileExec2087056870.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2087056870.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2087056870.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2087056870
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2087056870.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2087056870.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2087056870 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <spawn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_spawn
+  return ((int*)(&posix_spawn))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pread exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2760373299/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2760373299.dir/build.make CMakeFiles/cmTryCompileExec2760373299.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2760373299.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2760373299.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2760373299
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2760373299.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2760373299.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2760373299 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pread
+  return ((int*)(&pread))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the realpath exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec263933397/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec263933397.dir/build.make CMakeFiles/cmTryCompileExec263933397.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec263933397.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec263933397.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec263933397
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec263933397.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec263933397.dir/CheckSymbolExists.c.o  -o cmTryCompileExec263933397 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef realpath
+  return ((int*)(&realpath))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sbrk exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4280539762/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4280539762.dir/build.make CMakeFiles/cmTryCompileExec4280539762.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4280539762.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4280539762.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec4280539762
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4280539762.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4280539762.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4280539762 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sbrk
+  return ((int*)(&sbrk))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the srand48 exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1178592412/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1178592412.dir/build.make CMakeFiles/cmTryCompileExec1178592412.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1178592412.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1178592412.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1178592412
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1178592412.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1178592412.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1178592412 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef srand48
+  return ((int*)(&srand48))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the lrand48 exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec293131906/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec293131906.dir/build.make CMakeFiles/cmTryCompileExec293131906.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec293131906.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec293131906.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec293131906
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec293131906.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec293131906.dir/CheckSymbolExists.c.o  -o cmTryCompileExec293131906 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lrand48
+  return ((int*)(&lrand48))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the drand48 exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec63008252/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec63008252.dir/build.make CMakeFiles/cmTryCompileExec63008252.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec63008252.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec63008252.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec63008252
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec63008252.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec63008252.dir/CheckSymbolExists.c.o  -o cmTryCompileExec63008252 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef drand48
+  return ((int*)(&drand48))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoll exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1249098080/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1249098080.dir/build.make CMakeFiles/cmTryCompileExec1249098080.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1249098080.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1249098080.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1249098080
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1249098080.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1249098080.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1249098080 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoq exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1837488245/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1837488245.dir/build.make CMakeFiles/cmTryCompileExec1837488245.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1837488245.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1837488245.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1837488245
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1837488245.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1837488245.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1837488245 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoq
+  return ((int*)(&strtoq))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1130488355/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1130488355.dir/build.make CMakeFiles/cmTryCompileExec1130488355.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1130488355.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1130488355.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1130488355
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1130488355.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1130488355.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1130488355 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror_r exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1975935160/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1975935160.dir/build.make CMakeFiles/cmTryCompileExec1975935160.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1975935160.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1975935160.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1975935160
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1975935160.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1975935160.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1975935160 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setenv exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2763557752/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2763557752.dir/build.make CMakeFiles/cmTryCompileExec2763557752.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2763557752.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2763557752.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2763557752
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2763557752.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2763557752.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2763557752 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the dlerror exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1435773763/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1435773763.dir/build.make CMakeFiles/cmTryCompileExec1435773763.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1435773763.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1435773763.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1435773763
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1435773763.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1435773763.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1435773763 -rdynamic -lm -ldl 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlerror
+  return ((int*)(&dlerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the dlopen exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3595712044/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3595712044.dir/build.make CMakeFiles/cmTryCompileExec3595712044.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3595712044.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3595712044.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3595712044
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3595712044.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3595712044.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3595712044 -rdynamic -lm -ldl 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the __GLIBC__ exist passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3663796886/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3663796886.dir/build.make CMakeFiles/cmTryCompileExec3663796886.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3663796886.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3663796886.dir/CheckSymbolExists.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3663796886
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3663796886.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3663796886.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3663796886 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+File /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAVE_INT64_T succeded with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1836628922/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1836628922.dir/build.make CMakeFiles/cmTryCompileExec1836628922.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1836628922.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_INT64_T   -o CMakeFiles/cmTryCompileExec1836628922.dir/src.cxx.o -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1836628922
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1836628922.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_INT64_T    CMakeFiles/cmTryCompileExec1836628922.dir/src.cxx.o  -o cmTryCompileExec1836628922 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ int64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_UINT64_T succeded with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2392083004/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2392083004.dir/build.make CMakeFiles/cmTryCompileExec2392083004.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2392083004.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_UINT64_T   -o CMakeFiles/cmTryCompileExec2392083004.dir/src.cxx.o -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2392083004
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2392083004.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_UINT64_T    CMakeFiles/cmTryCompileExec2392083004.dir/src.cxx.o  -o cmTryCompileExec2392083004 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ uint64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_U_INT64_T succeded with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec548881784/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec548881784.dir/build.make CMakeFiles/cmTryCompileExec548881784.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec548881784.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_U_INT64_T   -o CMakeFiles/cmTryCompileExec548881784.dir/src.cxx.o -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec548881784
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec548881784.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_U_INT64_T    CMakeFiles/cmTryCompileExec548881784.dir/src.cxx.o  -o cmTryCompileExec548881784 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ u_int64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Determining if the function __atomic_fetch_add_4 exists in the atomic passed with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3240833761/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3240833761.dir/build.make CMakeFiles/cmTryCompileExec3240833761.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3240833761.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=__atomic_fetch_add_4   -o CMakeFiles/cmTryCompileExec3240833761.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function '__atomic_fetch_add_4'
+/usr/share/cmake-3.2/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec3240833761
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3240833761.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=__atomic_fetch_add_4    CMakeFiles/cmTryCompileExec3240833761.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3240833761 -rdynamic -latomic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test LLVM_HAS_ATOMICS succeded with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3371536024/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3371536024.dir/build.make CMakeFiles/cmTryCompileExec3371536024.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3371536024.dir/src.cxx.o
+/usr/bin/c++    -DLLVM_HAS_ATOMICS   -o CMakeFiles/cmTryCompileExec3371536024.dir/src.cxx.o -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3371536024
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3371536024.dir/link.txt --verbose=1
+/usr/bin/c++    -DLLVM_HAS_ATOMICS    CMakeFiles/cmTryCompileExec3371536024.dir/src.cxx.o  -o cmTryCompileExec3371536024 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#ifdef _MSC_VER
+#include <Intrin.h> /* Workaround for PR19898. */
+#include <windows.h>
+#endif
+int main() {
+#ifdef _MSC_VER
+        volatile LONG val = 1;
+        MemoryBarrier();
+        InterlockedCompareExchange(&val, 0, 1);
+        InterlockedIncrement(&val);
+        InterlockedDecrement(&val);
+#else
+        volatile unsigned long val = 1;
+        __sync_synchronize();
+        __sync_val_compare_and_swap(&val, 1, 0);
+        __sync_add_and_fetch(&val, 1);
+        __sync_sub_and_fetch(&val, 1);
+#endif
+        return 0;
+      }
+
+Performing C++ SOURCE FILE Test SUPPORTS_NO_VARIADIC_MACROS_FLAG succeded with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1168166049/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1168166049.dir/build.make CMakeFiles/cmTryCompileExec1168166049.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1168166049.dir/src.cxx.o
+/usr/bin/c++    -DSUPPORTS_NO_VARIADIC_MACROS_FLAG   -Wno-variadic-macros -o CMakeFiles/cmTryCompileExec1168166049.dir/src.cxx.o -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1168166049
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1168166049.dir/link.txt --verbose=1
+/usr/bin/c++    -DSUPPORTS_NO_VARIADIC_MACROS_FLAG    CMakeFiles/cmTryCompileExec1168166049.dir/src.cxx.o  -o cmTryCompileExec1168166049 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_MAYBE_UNINITIALIZED succeded with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec516811600/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec516811600.dir/build.make CMakeFiles/cmTryCompileExec516811600.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec516811600.dir/src.cxx.o
+/usr/bin/c++    -DHAS_MAYBE_UNINITIALIZED   -Wmaybe-uninitialized -o CMakeFiles/cmTryCompileExec516811600.dir/src.cxx.o -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec516811600
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec516811600.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAS_MAYBE_UNINITIALIZED    CMakeFiles/cmTryCompileExec516811600.dir/src.cxx.o  -o cmTryCompileExec516811600 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FPIC succeded with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1488687301/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1488687301.dir/build.make CMakeFiles/cmTryCompileExec1488687301.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1488687301.dir/src.c.o
+/usr/bin/cc   -DC_SUPPORTS_FPIC   -Werror -fPIC -o CMakeFiles/cmTryCompileExec1488687301.dir/src.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1488687301
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1488687301.dir/link.txt --verbose=1
+/usr/bin/cc   -DC_SUPPORTS_FPIC    CMakeFiles/cmTryCompileExec1488687301.dir/src.c.o  -o cmTryCompileExec1488687301 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FPIC succeded with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec890829390/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec890829390.dir/build.make CMakeFiles/cmTryCompileExec890829390.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec890829390.dir/src.cxx.o
+/usr/bin/c++    -DCXX_SUPPORTS_FPIC   -Werror -fPIC -o CMakeFiles/cmTryCompileExec890829390.dir/src.cxx.o -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec890829390
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec890829390.dir/link.txt --verbose=1
+/usr/bin/c++    -DCXX_SUPPORTS_FPIC    CMakeFiles/cmTryCompileExec890829390.dir/src.cxx.o  -o cmTryCompileExec890829390 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG succeded with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2845321347/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2845321347.dir/build.make CMakeFiles/cmTryCompileExec2845321347.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2845321347.dir/src.cxx.o
+/usr/bin/c++    -fPIC -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG   -fvisibility-inlines-hidden -o CMakeFiles/cmTryCompileExec2845321347.dir/src.cxx.o -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2845321347
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2845321347.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG    CMakeFiles/cmTryCompileExec2845321347.dir/src.cxx.o  -o cmTryCompileExec2845321347 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG succeded with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1895505469/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1895505469.dir/build.make CMakeFiles/cmTryCompileExec1895505469.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1895505469.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -DCXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG   -Wmissing-field-initializers -o CMakeFiles/cmTryCompileExec1895505469.dir/src.cxx.o -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1895505469
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1895505469.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -DCXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG    CMakeFiles/cmTryCompileExec1895505469.dir/src.cxx.o  -o cmTryCompileExec1895505469 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_CXX11 succeded with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2232713383/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2232713383.dir/build.make CMakeFiles/cmTryCompileExec2232713383.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2232713383.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wno-comment -DCXX_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTryCompileExec2232713383.dir/src.cxx.o -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2232713383
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2232713383.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wno-comment -DCXX_SUPPORTS_CXX11    CMakeFiles/cmTryCompileExec2232713383.dir/src.cxx.o  -o cmTryCompileExec2232713383 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FNO_FUNCTION_SECTIONS succeded with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2329639934/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2329639934.dir/build.make CMakeFiles/cmTryCompileExec2329639934.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2329639934.dir/src.c.o
+/usr/bin/cc   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-comment -DC_SUPPORTS_FNO_FUNCTION_SECTIONS   -Werror -fno-function-sections -o CMakeFiles/cmTryCompileExec2329639934.dir/src.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2329639934
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2329639934.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-comment -DC_SUPPORTS_FNO_FUNCTION_SECTIONS    CMakeFiles/cmTryCompileExec2329639934.dir/src.c.o  -o cmTryCompileExec2329639934 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FFUNCTION_SECTIONS succeded with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4218277117/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4218277117.dir/build.make CMakeFiles/cmTryCompileExec4218277117.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4218277117.dir/src.c.o
+/usr/bin/cc   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-comment -DC_SUPPORTS_FFUNCTION_SECTIONS   -Werror -ffunction-sections -o CMakeFiles/cmTryCompileExec4218277117.dir/src.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec4218277117
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4218277117.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-comment -DC_SUPPORTS_FFUNCTION_SECTIONS    CMakeFiles/cmTryCompileExec4218277117.dir/src.c.o  -o cmTryCompileExec4218277117 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FFUNCTION_SECTIONS succeded with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3585062968/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3585062968.dir/build.make CMakeFiles/cmTryCompileExec3585062968.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3585062968.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wno-comment -std=c++11 -DCXX_SUPPORTS_FFUNCTION_SECTIONS   -Werror -ffunction-sections -o CMakeFiles/cmTryCompileExec3585062968.dir/src.cxx.o -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3585062968
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3585062968.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wno-comment -std=c++11 -DCXX_SUPPORTS_FFUNCTION_SECTIONS    CMakeFiles/cmTryCompileExec3585062968.dir/src.cxx.o  -o cmTryCompileExec3585062968 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FDATA_SECTIONS succeded with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2068546316/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2068546316.dir/build.make CMakeFiles/cmTryCompileExec2068546316.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2068546316.dir/src.c.o
+/usr/bin/cc   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-comment -ffunction-sections -DC_SUPPORTS_FDATA_SECTIONS   -Werror -fdata-sections -o CMakeFiles/cmTryCompileExec2068546316.dir/src.c.o   -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2068546316
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2068546316.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-comment -ffunction-sections -DC_SUPPORTS_FDATA_SECTIONS    CMakeFiles/cmTryCompileExec2068546316.dir/src.c.o  -o cmTryCompileExec2068546316 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FDATA_SECTIONS succeded with the following output:
+Change Dir: /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1609074208/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1609074208.dir/build.make CMakeFiles/cmTryCompileExec1609074208.dir/build
+make[1]: Entering directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1609074208.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wno-comment -std=c++11 -ffunction-sections -DCXX_SUPPORTS_FDATA_SECTIONS   -Werror -fdata-sections -o CMakeFiles/cmTryCompileExec1609074208.dir/src.cxx.o -c /tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1609074208
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1609074208.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wno-comment -std=c++11 -ffunction-sections -DCXX_SUPPORTS_FDATA_SECTIONS    CMakeFiles/cmTryCompileExec1609074208.dir/src.cxx.o  -o cmTryCompileExec1609074208 -rdynamic -lm 
+make[1]: Leaving directory '/mnt/data/tmp/emsdk_portable/clang/fastcomp/build_master_64/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }

@@ -1,0 +1,2 @@
+/usr/bin/ar cq ../../../../../lib/libclangToolingCore.a  CMakeFiles/clangToolingCore.dir/Replacement.cpp.o
+/usr/bin/ranlib ../../../../../lib/libclangToolingCore.a

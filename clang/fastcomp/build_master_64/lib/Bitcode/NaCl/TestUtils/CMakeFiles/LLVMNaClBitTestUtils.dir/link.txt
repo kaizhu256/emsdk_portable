@@ -1,0 +1,2 @@
+/usr/bin/ar cq ../../../libLLVMNaClBitTestUtils.a  CMakeFiles/LLVMNaClBitTestUtils.dir/NaClBitcodeMunge.cpp.o
+/usr/bin/ranlib ../../../libLLVMNaClBitTestUtils.a

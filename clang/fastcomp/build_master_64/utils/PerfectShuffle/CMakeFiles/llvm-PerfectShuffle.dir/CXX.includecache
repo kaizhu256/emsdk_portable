@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/emsdk_portable/clang/fastcomp/src/utils/PerfectShuffle/PerfectShuffle.cpp
+cassert
+-
+cstdlib
+-
+iomanip
+-
+iostream
+-
+vector
+-
+

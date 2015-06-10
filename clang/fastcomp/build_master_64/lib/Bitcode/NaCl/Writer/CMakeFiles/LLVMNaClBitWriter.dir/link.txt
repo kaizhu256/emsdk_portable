@@ -1,0 +1,2 @@
+/usr/bin/ar cq ../../../libLLVMNaClBitWriter.a  CMakeFiles/LLVMNaClBitWriter.dir/NaClBitcodeWriter.cpp.o CMakeFiles/LLVMNaClBitWriter.dir/NaClBitcodeWriterPass.cpp.o CMakeFiles/LLVMNaClBitWriter.dir/NaClValueEnumerator.cpp.o
+/usr/bin/ranlib ../../../libLLVMNaClBitWriter.a
